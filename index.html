@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier 1830</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- BOOTSTRAP 5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Passions+Conflict&display=swap" rel="stylesheet"> 
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/a6ce60fee1.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+
+<!-- **************** NAVBAR **************** -->
+    <nav class="navbar navbar-expand-md navbar-custom fixed-top d-flex flex-column">
+        <div class="container">
+            <div class="row">
+                <div class="col-1 my-auto">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#monMenu" aria-controls="monMenu" aria-label="Mon menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button></div>
+                <div class="col-11 col-md-12 test d-block d-lg-none text-center">Atelier 1830</div>
+            </div>
+        </div>
+        <div class="container">
+            <a href="" class="navbar-brand">LOGO</a>
+            <div class="collapse navbar-collapse my-auto" id="monMenu">
+                <div class="navbar-nav m-lg-auto">
+                    <a class="nav-item nav-link m-3"href="">ACCUEIL</a>
+                    <a class="nav-item nav-link m-3"href="">PAS A PAS</a>
+                    <a class="nav-item nav-link m-3"href="">CREER UN DEVIS</a>
+                    <a class="nav-item nav-link m-3"href="">BOUTIQUE</a>
+                    <a class="nav-item nav-link m-3"href="">CONTACT</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    
+
+<!-- **************** HEADER **************** -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center"><h1>Atelier 1830</h1></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-5 col-lg-4 text-center">
+                    <div class="article_header">
+                        <h3>Mon Entreprise</h3>
+                        <p>Atelier 1830 est une entreprise qui dédie son activité à la tapisserie en décoration. Le savoir-faire artisanal de cette enseigne révèle une qualité de travail remarquable. Fidèle, l’atelier ne manque pas de satisfaire ses clients par sa précision et son application.</p>
+                        <a href=""><img src="./images/IMG_header/coussin_bnw_header.jpeg" alt="coussin noir et blanc" id="img1"></a>
+                    </div>
+                    <div class="img_header_tab">
+                        <a href=""><img src="./images/IMG_header/coussin_bnw_header.jpeg" alt="coussin noir et blanc" ></a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 col-lg-4 text-center">
+                    <div class="article_header">
+                        <h3>Les activités de l'atelier</h3>
+                        <p>Passionné, l'atelier confectionne dans les règles de l'art des rideaux, voilages, housses pour canapé, chaises, coussins ; des stores bateau, des galettes de mousses etc...<br>
+                           Chaque client propose ses idées accompagnées des éléments essentiels à la bonne conception du produit (tissu, couleurs,... )</p>
+                        <a target="_blank" href=""><img src="./images/IMG_header/Draps_header.jpeg" alt="draps" id="img2"></a>
+                    </div>
+                    <div class="img_header_tab">
+                        <a target="_blank" href=""><img src="./images/IMG_header/Draps_header.jpeg" alt="draps"></a>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 col-lg-4 text-center">
+                    <div class="article_header">
+                        <h3>Pourquoi 1830 ?</h3>
+                        <p>Un peu d'histoire : en 1830, M Barthélémy Thimonnier invente le premier métier à coudre qui peut enchaîner jusqu'à 200 points par minute. Rassurez vous, l'atelier travaille sur une machine un peu plus évoluée et se caractérise par une certaine rapidité d'exécution et une précision toujours plus accrue.</p>
+                        <a href=""><img src="./images/IMG_header/machineacoudre_thimonnier_header.jpg" alt="première machine à coudre" id="img3"></a>
+                    </div>
+                </div>
+                <div class="col-md-6 img_mac_header_tab text-center">
+                    <img src="./images/machineacoudre_thimonnier.jpg" alt="première machine à coudre">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+<!-- **************** CARROUSSEL **************** -->
+    <div class="row color_carroussel">
+        <div class="col-lg-4 offset-4 col-md-4">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="active" aria-current="true" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/coussin_canapé_longueur.jpeg" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Coussins sur un canapé</h5>
+                            <p>Détails de présentation</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="./images/fermeture_lit.jpeg" class="d-block w-100" height="auto" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Coussins sur un canapé</h5>
+                            <p>Détails de présentation</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="./images/couture_coussin_cuir.jpeg" class="d-block w-100" height="auto" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Coussins sur un canapé</h5>
+                            <p>Détails de présentation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <section id="carroussel">
+        <p class="carroussel_img text-center">CARROUSSEL D'IMAGES</p>
+        <div class="img_carroussel">
+            <img src="./images/coussin_canapé_longueur.jpeg" width="300px" alt="coussin sur canapé">
+            <img src="./images/fermeture_lit.jpeg" width="300px" alt="matelas">
+            <img src="./images/couture_coussin_cuir.jpeg" width="300px" alt="coussin cuir">
+        </div>
+    </section> -->
+
+
+<!-- **************** A PROPOS DE VOTRE ARTISAN **************** -->
+    <section id="info_artisan">
+        <h2>&#192; propos de votre Artisan</h2>
+        <div class="container">
+            <div class="row bloc text-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="bloc_info">
+                        <h3>Son Parcours</h3>
+                        <p>Formée par des maîtres d'apprentissage très exigeants, je suis diplômée du CFA <strong>La Bonne Graine</strong> à Paris et ai obtenu mon CAP en alternance au sein de la capitale.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="bloc_info">
+                        <h3>Artisan d'Art</h3>
+                        <p>Tapissière au savoir-faire artisanal reconnu.</p>
+                        <img src="./images/logo-artisan-art.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row bloc m-1 text-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="bloc_info_loc">
+                        <h3>Localistaion</h3>
+                        <p>L'atelier se situe à Versailles.<br><strong>78</strong></p>
+                    </div>
+                </div>
+                <div class="col-lg-12 map_desktop">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34350.43874697801!2d2.111029110741943!3d48.80243869256719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67db475f420bd%3A0x869e00ad0d844aba!2s78000%20Versailles!5e0!3m2!1sfr!2sfr!4v1665662199499!5m2!1sfr!2sfr" 
+                        width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="col-md-6 map_tab">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34350.43874697801!2d2.111029110741943!3d48.80243869256719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67db475f420bd%3A0x869e00ad0d844aba!2s78000%20Versailles!5e0!3m2!1sfr!2sfr!4v1665662199499!5m2!1sfr!2sfr" 
+                    width="270 auto" height="360 auto" style="border:0; margin-top: 6vh" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- **************** FOOTER **************** -->
+    <footer>
+        <div class="icons_footer">
+            <a href=""><i class="fa-brands fa-square-facebook fa-3x"></i></a>
+            <a href=""><i class="fa-brands fa-instagram fa-3x"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp fa-3x"></i></a>
+        </div>
+        <div class="row text-center liens_footer">
+            <div class="col-md-4">
+                <a href="">Mentions Légales</a>
+            </div>
+            <div class="col-md-4">
+                atelier-1830.com
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <!-- <script type="text/javascript">
+        window.onscroll = function () {
+            let navbar = document.getElementsByTagName('nav') [0]
+            if (window.scrollY > 100) {
+                navbar.style.backgroundColor = "#a44a4a";
+                navbar.style.color = "#ebddac";
+                
+            } else {
+                navbar.style.backgroundColor = "";
+                navbar.style.color = "";
+            }
+        };
+    </script> -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</body>
+</html>
